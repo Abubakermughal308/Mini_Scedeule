@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* color: white; */
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bdbbbb;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(41, 39, 39);
+}
+.main_container {
+  border: 1px solid black;
+  background-color: rgb(37, 37, 54);
+  width: 500px;
+  height: 400px;
+}
+.tittle {
+  margin: 20px 150px;
+  color: white;
+  font-weight: 600;
+}
+.input_container {
+  border: 1px solid black;
+  margin: 5px 50px;
+  padding: 5px 10px;
+  background-color: rgb(41, 39, 39);
+}
+.tasks_Input {
+  width: 280px;
+  font-size: 1.2rem;
+  background: transparent;
+  padding: 10px 10px;
+  border: none;
+  color: whitesmoke;
+}
+.add_btn {
+  padding: 12px 22px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  background-color: black;
+  margin-left: 7px;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.update_btn {
+  padding: 12px 22px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  background-color: black;
+  margin-left: 7px;
+  border: none;
+  display: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.text_container {
+  margin: 5px 10px;
+  height: 240px;
+  overflow: auto;
+}
+.task_container {
+  display: flex;
+  border: 1px solid black;
+  margin: 10px 40px;
+  padding: 15px 20px;
+  color: whitesmoke;
+  background-color: rgb(41, 39, 39);
+}
+.checked_btn {
+  text-decoration: line-through;
+}
+.edit_btn {
+  padding: 4px 6px;
+  background-color: rgb(100, 100, 12);
+  color: white;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.delete_btn {
+  padding: 4px 6px;
+  margin-left: 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.check_box {
+  padding: 4px 6px;
+  margin-left: 10px;
+  background-color: rgb(4, 104, 4);
+  color: white;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.task_container li {
+  width: 272px;
+  padding: 4px;
+  /* background-color: white; */
+  font-size: 1.2rem;
+  list-style: none;
+  overflow: hidden;
+}
+.footer {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  font-weight: 800;
+  color: aliceblue;
+}
+.footer h3 {
+  color: rgba(255, 255, 255, 0.753);
+}
