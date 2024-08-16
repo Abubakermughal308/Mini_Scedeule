@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Schedule</title>
+</head>
+<body onload="add_All()">
+    <div class="main_container">
+      <h1 class="tittle">Mini Schedule</h1>
+      <div class="input_container">
+        <input type="text" hidden class="id"/>
+        <input type="text" placeholder="Enter your Task..."  class="tasks_Input" />
+        <button onclick="add() " class="add_btn" ><i class="fa-solid fa-plus"></i></button>
+        <button onclick="update()"  class="update_btn" ><i class="fa-solid fa-wrench"></i></button>
+      </div>  
+      <div class="text_container">
+      </div>
+    </div>
+    <footer class="footer">
+        <h3>Developed by</h3>
+        <h2>Abubaker Mughal</h2>
+    <footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cca53642ac.js" crossorigin="anonymous"></script>
+</html>
